@@ -15,13 +15,13 @@ namespace ConsoleApp1
 
             Console.Write("Введите первое число - ");
 
-            int s = Convert.ToInt32(Console.ReadLine());
+            int a = Convert.ToInt32(Console.ReadLine());
 
             Console.Write("Введите второе число - ");
 
             int b = Convert.ToInt32(Console.ReadLine());
 
-            int num = s + b;
+            int num = a + b;
 
             Console.WriteLine("Сумма вервого и второго числа состовляет " + num) ;
 

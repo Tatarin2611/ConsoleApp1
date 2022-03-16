@@ -13,11 +13,11 @@ namespace ConsoleApp1
 
             Console.WriteLine("Сложение двух чисел и умножение суммы на 2 ");
 
-            Console.Write("Введите первое число - ");
+            Console.Write("Введите первое число a - ");
 
             int a = Convert.ToInt32(Console.ReadLine());
 
-            Console.Write("Введите второе число - ");
+            Console.Write("Введите второе число b ");
 
             int b = Convert.ToInt32(Console.ReadLine());
 

@@ -10,17 +10,20 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Привет");
 
-            Console.WriteLine("Жизнь невероятна");
+            Console.WriteLine("сложение двух чисел");
 
-            Console.WriteLine("Пока");
+            Console.Write("Введите первое число - ");
 
-            Console.WriteLine("Привет");
+            int a = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Жизнь невероятна");
+            Console.Write("Введите второе число - ");
 
-            Console.WriteLine("Пока");
+            int b = Convert.ToInt32(Console.ReadLine());
+
+            int num = a + b;
+
+            Console.WriteLine("Сумма вервого и второго числа состовляет " + num) ;
 
             Console.ReadLine();
         }

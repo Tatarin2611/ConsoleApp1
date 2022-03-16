@@ -23,7 +23,7 @@ namespace ConsoleApp1
 
             int num = a + b;
 
-            Console.WriteLine("Сумма вервого и второго числа состовляет " + num) ;
+            Console.WriteLine("Сумма вервого и второго числа состовляет " + num, "ffffffffffffffffffffff") ;
 
             num = num * 2;
 

@@ -13,6 +13,15 @@ namespace ConsoleApp1
             Console.WriteLine("Привет");
 
             Console.WriteLine("Жизнь невероятна");
+
+            Console.WriteLine("Пока");
+
+            Console.WriteLine("Привет");
+
+            Console.WriteLine("Жизнь невероятна");
+
+            Console.WriteLine("Пока");
+
             Console.ReadLine();
         }
     }

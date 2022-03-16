@@ -11,7 +11,7 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
 
-            Console.WriteLine("сложение двух чисел");
+            Console.WriteLine("Сложение двух чисел и умножение суммы на 2 ");
 
             Console.Write("Введите первое число - ");
 
@@ -24,6 +24,10 @@ namespace ConsoleApp1
             int num = a + b;
 
             Console.WriteLine("Сумма вервого и второго числа состовляет " + num) ;
+
+            num = num * 2;
+
+            Console.WriteLine("Сумма вервого и второго числа состовляет " + num);
 
             Console.ReadLine();
         }
